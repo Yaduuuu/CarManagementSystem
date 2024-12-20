@@ -33,15 +33,23 @@ A Spring Boot-based API for managing car details, with features like CRUD operat
 ```bash
 git clone https://github.com/Yaduuuu/CarManagementSystem.git
 cd CarManagementSystem
-###2. Configure the Database
-Open your MySQL client or MySQL Workbench.
-Create a new database:
-sql
-Copy code
-CREATE DATABASE car_management_db;
-Update the database credentials in src/main/resources/application.properties:
-properties
-Copy code
+
+2. Configure the Database
+   1. Open your MySQL client or MySQL Workbench.
+   2.Create a new database:- CREATE DATABASE car_management_db;
+   3.Update the database credentials in src/main/resources/application.properties:-
 spring.datasource.url=jdbc:mysql://localhost:3306/car_management_db
 spring.datasource.username=<your-mysql-username>
 spring.datasource.password=<your-mysql-password>
+
+3. Build and Run the Application
+If you're using Maven Wrapper (default setup):
+mvn clean install
+mvn spring-boot:run
+
+4. Access the Application
+Base URL: http://localhost:8080
+Swagger UI: http://localhost:8080/swagger-ui.html
+
+
+
