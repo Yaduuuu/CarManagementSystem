@@ -25,8 +25,8 @@ This project is a Spring Boot-based Car Management System with features like CRU
 sql
 -CREATE DATABASE car_management_db;
 --Update application.properties with your MySQL credentials:
-spring.datasource.username=<your-username>
-spring.datasource.password=<your-password>
+spring.datasource.username=root
+spring.datasource.password=Y@du0404
 
 3.Build and run the project:
 --mvn clean install
