@@ -19,6 +19,7 @@ This project is a Spring Boot-based Car Management System with features like CRU
    ```bash
    git clone https://github.com/Yaduuuu/CarManagementSystem.git
    cd CarManagementSystem
+   
 2. Configure the database:
 -Create a database in MySQL:
 sql
@@ -26,9 +27,11 @@ sql
 --Update application.properties with your MySQL credentials:
 spring.datasource.username=<your-username>
 spring.datasource.password=<your-password>
+
 3.Build and run the project:
 --mvn clean install
 --mvn spring-boot:run
+
 4. Access the application:
 --Swagger UI: http://localhost:8080/swagger-ui.html
 --API Endpoints: http://localhost:8080/api/cars
