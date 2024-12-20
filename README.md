@@ -1,37 +1,35 @@
 # Car Management System
 
-This project is a Spring Boot-based Car Management System with features like CRUD operations, global search, pagination, sorting, and Swagger API documentation.
+A Spring Boot-based API for managing car details, with features like CRUD operations, global search, pagination, sorting, validation, and API documentation using Swagger.
 
 ## Features
-- Add, update, delete, and view car details.
-- Global search by name, model, year, color, or fuel type.
-- Pagination and sorting for efficient data handling.
-- Input validation to ensure proper data submission.
-- Swagger documentation for exploring and testing APIs.
+- **CRUD Operations**: Add, update, view, and delete car details.
+- **Global Search**: Search cars by name, model, year, color, or fuel type.
+- **Pagination & Sorting**: Handle large datasets efficiently.
+- **Input Validation**: Ensures only valid data is processed.
+- **Swagger Documentation**: Explore and test APIs directly via Swagger UI.
+
+---
+
+## Technologies Used
+- **Backend**: Spring Boot, Java 17
+- **Database**: MySQL
+- **Build Tool**: Maven
+- **API Documentation**: Swagger/OpenAPI
+
+---
 
 ## Requirements
-- **Java 17 or higher**
-- **MySQL Server**
-- **Maven**
+- Java Development Kit (JDK) 17 or higher
+- MySQL Server
+- Maven (optional, if Maven Wrapper is used)
+- A web browser or API testing tool (e.g., Postman)
+
+---
 
 ## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Yaduuuu/CarManagementSystem.git
-   cd CarManagementSystem
-   
-2. Configure the database:
--Create a database in MySQL:
-sql
--CREATE DATABASE car_management_db;
---Update application.properties with your MySQL credentials:
-spring.datasource.username=root
-spring.datasource.password=Y@du0404
 
-3.Build and run the project:
---mvn clean install
---mvn spring-boot:run
-
-4. Access the application:
---Swagger UI: http://localhost:8080/swagger-ui.html
---API Endpoints: http://localhost:8080/api/cars
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Yaduuuu/CarManagementSystem.git
+cd CarManagementSystem
