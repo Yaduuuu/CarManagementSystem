@@ -33,7 +33,7 @@ A Spring Boot-based API for managing car details, with features like CRUD operat
 ```bash
 git clone https://github.com/Yaduuuu/CarManagementSystem.git
 cd CarManagementSystem
-2. Configure the Database
+###2. Configure the Database
 Open your MySQL client or MySQL Workbench.
 Create a new database:
 sql
